@@ -1,0 +1,37 @@
+# Unity 可重建目录
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# IDE 与 Unity 自动重生成的工程文件
+/.vs/
+/.vscode/
+/.idea/
+*.csproj
+*.sln
+*.user
+*.userprefs
+*.suo
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+UnityGenerated/
+
+# 构建产物与系统杂项
+*.unitypackage
+*.apk
+*.aab
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 注意：这里刻意没有 *.meta 规则。Assets 下的 .meta 必须入库，
+# 缺 .meta 会让 guid 重生成，场景与 prefab 的引用会当场断掉。

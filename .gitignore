@@ -35,3 +35,7 @@ desktop.ini
 
 # 注意：这里刻意没有 *.meta 规则。Assets 下的 .meta 必须入库，
 # 缺 .meta 会让 guid 重生成，场景与 prefab 的引用会当场断掉。
+
+# 本地生成物与临时脚本
+/vibe_images/
+/*.ps1
